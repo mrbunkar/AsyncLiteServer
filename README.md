@@ -19,36 +19,36 @@
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/AsyncLiteServer.git
-   \`\`\`
+   ```
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd AsyncLiteServer
-   \`\`\`
+   ```
 3. Ensure your environment is set up correctly with Python 3.8+.
 
 ### Usage
 
 1. Start the server by running the following command:
-   \`\`\`bash
-   python server.py
-   \`\`\`
+   ```bash
+   python main.py
+   ```
 2. The server will start listening on \`localhost:3030\`. Open your browser and navigate to:
-   \`\`\`
+   ```bash
    http://localhost:3030
-   \`\`\`
+   ```
 3. You should see the content of the \`index.html\` file displayed in your browser.
 
 ## Project Structure
 
-\`\`\`bash
+```bash
 AsyncLiteServer/
 ├── request_handler.py       # Handles the parsing of incoming HTTP requests
 ├── response.py              # Contains predefined HTTP responses
 ├── server.py                # Main server code that handles connections and serves files
 └── index.html               # The default HTML file served by the server
-\`\`\`
+```
 
 
 ## Customization
